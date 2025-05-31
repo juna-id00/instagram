@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.first_div{
+    width: 300px;
+    height: 700px;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.main{
+    /* width: 300px;
+    height: 500px; */
+    background-color: red;
+    display: flex;
+}
+
+.center{
+    width: 100%;
+    max-width: 680px;   
+    height: 1000px;
+    background-color: green;
+    margin: auto;
+}
+
+
+.right{
+    width: 100%;
+    max-width: 360px;
+    height: 500px;
+    background-color: blue;
+
+}
+
+.story{
+    width: 100%;
+    max-width: 780px;
+    background-color: black;
+    height: 100px;
+    margin: auto;
+}
+
+.posts{
+        width: 100%;
+    max-width: 780px;
+    background-color: yellow;
+    height: 1500px;
+    margin: auto;
+}
+
+.post{
+    width: 100%;
+    max-width: 450px;
+    background-color: brown;
+    height: 500px;
+    margin: auto;
+}
+
+@media screen and (max-width:1336px){
+    .center{
+        padding-left: 300px;
+
+    }
+}
+
+.head{
+    width: 100%;
+    height: 50px;
+    max-width: 450px;
+    background-color: rgb(203, 255, 196);
+    margin: auto;
+}
+
+.image{
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    margin: auto;
+}
+.m{
+    width: 450px;
+    max-width: 100%;
+
+}
+
+@media screen and (max-width:1200px){
+    .first_div{
+        display: none;
+    }
+
+    .center{
+        padding-left: 0;
+    }
+    .right{
+        display: none;
+    }
+}
